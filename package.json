@@ -1,0 +1,13 @@
+{
+  "name": "@faruryo/renovate-config",
+  "version": "0.0.1",
+  "repository": "https://github.com/faruryo/renovate-config",
+  "author": "faruryo <faruryo@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "renovate-config-validator"
+  },
+  "devDependencies": {
+    "renovate": "23.18.0"
+  }
+}
