@@ -2,6 +2,9 @@
   "extends": [
     "config:base"
   ],
+  "minor": {
+    "groupName": "all dependencies"
+  },
   "packageRules": [
     {
       "updateTypes": [
