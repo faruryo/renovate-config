@@ -9,3 +9,5 @@ renovate.jsonで下記を指定する。
   ]
 }
 ```
+
+[Configuration Options | Renovate Docs](https://docs.renovatebot.com/configuration-options/#addlabels)

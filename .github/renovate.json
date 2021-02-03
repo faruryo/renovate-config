@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "minor": {
+    "groupName": "all dependencies"
+  },
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest"
+      ],
+      "automerge": true
+    }
+  ],
+  "assignees": [
+    "faruryo"
+  ]
+}
