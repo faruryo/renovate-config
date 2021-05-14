@@ -563,7 +563,12 @@
   dependencies:
     tslib "2.1.0"
 
-"@sindresorhus/is@4.0.0", "@sindresorhus/is@^4.0.0":
+"@sindresorhus/is@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-4.0.1.tgz#d26729db850fa327b7cacc5522252194404226f5"
+  integrity sha512-Qm9hBEBu18wt1PO2flE7LPb30BHMQt1eQgbV76YntdNk73XZGpn3izvGTYxbGgzXKgbCjiia0uxTd3aTNQrY/g==
+
+"@sindresorhus/is@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-4.0.0.tgz#2ff674e9611b45b528896d820d3d7a812de2f0e4"
   integrity sha512-FyD2meJpDPjyNQejSjvnhpgI/azsQkA4lGbuu5BQZfjvJ9cbRZXzeWL2HceCekW4lixO9JPesIIQkSoLjeJHNQ==
@@ -1056,10 +1061,10 @@ ccount@^1.0.0:
   resolved "https://registry.yarnpkg.com/ccount/-/ccount-1.1.0.tgz#246687debb6014735131be8abab2d93898f8d043"
   integrity sha512-vlNK021QdI7PNeiUh/lKkC/mNHHfV0m/Ad5JoI0TYtlBnJAslM/JIkm/tGC88bkLIwO6OQ5uV6ztS6kVAtCDlg==
 
-chalk@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.0.tgz#4e14870a618d9e2edd97dd8345fd9d9dc315646a"
-  integrity sha512-qwx12AxXe2Q5xQ43Ac//I6v5aXTipYrSESdOgzrN+9XjgEpyjpKuvSGaN4qE93f7TQTlerQQ8S+EQ0EyDoVL1A==
+chalk@4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.1.tgz#c80b3fab28bf6371e6863325eee67e618b77e6ad"
+  integrity sha512-diHzdDKxcU+bAsUboHLPEDQiw0qEe0qd7SYUn3HgcFlWgbDcfLGswOHYeGrHKzG9z6UYf01d9VFMfZxPM1xZSg==
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
@@ -2318,10 +2323,10 @@ markdown-escapes@^1.0.0:
   resolved "https://registry.yarnpkg.com/markdown-escapes/-/markdown-escapes-1.0.4.tgz#c95415ef451499d7602b91095f3c8e8975f78535"
   integrity sha512-8z4efJYk43E0upd0NbVXwgSTQs6cT3T06etieCMEg7dRbzCbxUCK/GHlX8mhHRDcp+OLlHkPKsvqQTCvsRl2cg==
 
-markdown-it@12.0.4:
-  version "12.0.4"
-  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-12.0.4.tgz#eec8247d296327eac3ba9746bdeec9cfcc751e33"
-  integrity sha512-34RwOXZT8kyuOJy25oJNJoulO8L0bTHYWXcdZBYZqFnjIy3NgjeoM3FmPXIOFQ26/lSHYMr8oc62B6adxXcb3Q==
+markdown-it@12.0.6:
+  version "12.0.6"
+  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-12.0.6.tgz#adcc8e5fe020af292ccbdf161fe84f1961516138"
+  integrity sha512-qv3sVLl4lMT96LLtR7xeRJX11OUFjsaD5oVat2/SNBIb21bJXwal2+SklcRbTwGwqWpWH/HRtYavOoJE+seL8w==
   dependencies:
     argparse "^2.0.1"
     entities "~2.1.0"
@@ -2598,10 +2603,10 @@ node-gyp@^7.1.2:
     tar "^6.0.2"
     which "^2.0.2"
 
-node-html-parser@3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-3.1.2.tgz#b7a3e3ca9708624e50e0dd84ec988885b2aa6c90"
-  integrity sha512-t1FyoT8/3GTs1kgP70SsXAdQzxA0etXsBc8fPQYRwETucmgkD9f+1A7jVhSngUavEueR3fF8BkfDv3dRGWOOWQ==
+node-html-parser@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-3.2.0.tgz#2b1b81297bc6387a868b227761b35e553d5bf92c"
+  integrity sha512-fXhiFFnccwoUW92VvDACbtg1Kv7Ky0Qj9Rv7ETWpczSFLW07JWM6zQ+d523kiHNpodQHlvDhtjK2T86AclzXzQ==
   dependencies:
     css-select "^3.1.2"
     he "1.2.0"
@@ -3151,10 +3156,10 @@ redis-parser@^3.0.0:
   dependencies:
     redis-errors "^1.0.0"
 
-redis@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/redis/-/redis-3.1.0.tgz#39daec130d74b78decca93513c61db0af5d86ce6"
-  integrity sha512-//lAOcEtNIKk2ekZibes5oyWKYUVWMvMB71lyD/hS9KRePNkB7AU3nXGkArX6uDKEb2N23EyJBthAv6pagD0uw==
+redis@3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/redis/-/redis-3.1.2.tgz#766851117e80653d23e0ed536254677ab647638c"
+  integrity sha512-grn5KoZLr/qrRQVwoSkmzdbw6pwF+/rwODtrOr6vuBRiR/f3rjSTGupbF90Zpqm2oenix8Do6RV7pYEkGwlKkw==
   dependencies:
     denque "^1.5.0"
     redis-commands "^1.7.0"
@@ -3234,23 +3239,23 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@24.119.23:
-  version "24.119.23"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.119.23.tgz#5348ca67d66a442ed59489b9f3b6f89edc08c7f7"
-  integrity sha512-FOiTPexQDRnFHAowFWr8jkOzrY16ZjAdhS1+qmGRrwrzFUYUT6oQWRpdlk7KO7n/gW/L8o6R/zYMZkbV5DbmPg==
+renovate@25.21.3:
+  version "25.21.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.21.3.tgz#57702e8d99cccc378fa46e2f2466a9633c4c0acf"
+  integrity sha512-DBowf5594TcHF2YMZXfOOnq7HmAGZ+7yp09oiyunCkmvaoAQ8w+1nkxqeoF1Lzrnz3nxPsm3MTuiHlnF24n9fA==
   dependencies:
     "@aws-sdk/client-ecr" "3.5.0"
     "@breejs/later" "4.0.2"
     "@iarna/toml" "2.2.5"
     "@renovate/pep440" "1.0.0"
     "@renovatebot/ruby-semver" "1.0.0"
-    "@sindresorhus/is" "4.0.0"
+    "@sindresorhus/is" "4.0.1"
     "@yarnpkg/core" "2.4.0"
     "@yarnpkg/parsers" "2.3.0"
     azure-devops-node-api "10.2.2"
     bunyan "1.8.15"
     cacache "15.0.6"
-    chalk "4.1.0"
+    chalk "4.1.1"
     changelog-filename-regex "2.0.1"
     clean-git-ref "2.0.1"
     commander "6.2.1"
@@ -3279,18 +3284,18 @@ renovate@24.119.23:
     json5 "2.2.0"
     linkify-markdown "1.0.0"
     luxon "1.26.0"
-    markdown-it "12.0.4"
+    markdown-it "12.0.6"
     markdown-table "2.0.0"
     minimatch "3.0.4"
     moo "0.5.1"
     node-emoji "1.10.0"
-    node-html-parser "3.1.2"
+    node-html-parser "3.2.0"
     p-all "3.0.0"
     p-map "4.0.0"
     p-queue "6.6.2"
     parse-diff "0.8.1"
     parse-link-header "1.0.1"
-    redis "3.1.0"
+    redis "3.1.2"
     registry-auth-token "4.2.1"
     semver "7.3.5"
     semver-stable "3.0.0"
@@ -3298,7 +3303,7 @@ renovate@24.119.23:
     shlex "2.0.2"
     shortid "2.2.16"
     simple-git "2.38.0"
-    slugify "1.5.0"
+    slugify "1.5.1"
     traverse "0.6.6"
     upath "2.0.1"
     url-join "4.0.1"
@@ -3521,10 +3526,10 @@ slash@^3.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
 
-slugify@1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.5.0.tgz#5f3c8e2a84105b54eb51486db1b468a599b3c9b8"
-  integrity sha512-Q2UPZ2udzquy1ElHfOLILMBMqBEXkiD3wE75qtBvV+FsDdZZjUqPZ44vqLTejAVq+wLLHacOMcENnP8+ZbzmIA==
+slugify@1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.5.1.tgz#ef268872982a3a3b18f213ddee8cd1a28ac7a130"
+  integrity sha512-54gP60qIkxaUCFXORn/u+tNPqdTsqvqonB2nxjQV52wWTCuJJ4kbfU7URkpn8646Lr2T3CSh8ecDzzBK/dD9jA==
 
 source-map@^0.6.1:
   version "0.6.1"
