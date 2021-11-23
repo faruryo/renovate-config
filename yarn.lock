@@ -1665,10 +1665,10 @@ auth-header@1.0.0:
   resolved "https://registry.yarnpkg.com/auth-header/-/auth-header-1.0.0.tgz#ea24fdc5588e1eb8b750df8655a396aa48fc9076"
   integrity sha512-CPPazq09YVDUNNVWo4oSPTQmtwIzHusZhQmahCKvIsk0/xH6U3QsMAv3sM+7+Q0B1K2KJ/Q38OND317uXs4NHA==
 
-azure-devops-node-api@11.0.1:
-  version "11.0.1"
-  resolved "https://registry.yarnpkg.com/azure-devops-node-api/-/azure-devops-node-api-11.0.1.tgz#b7ec4783230e1de8fc972b23effe7ed2ebac17ff"
-  integrity sha512-YMdjAw9l5p/6leiyIloxj3k7VIvYThKjvqgiQn88r3nhT93ENwsoDS3A83CyJ4uTWzCZ5f5jCi6c27rTU5Pz+A==
+azure-devops-node-api@11.1.0:
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/azure-devops-node-api/-/azure-devops-node-api-11.1.0.tgz#ea3ca49de8583b0366d000f3c3f8a75b8104055f"
+  integrity sha512-6/2YZuf+lJzJLrjXNYEA5RXAkMCb8j/4VcHD0qJQRsgG/KsRMYo0HgDh0by1FGHyZkQWY5LmQyJqCwRVUB3Y7Q==
   dependencies:
     tunnel "0.0.6"
     typed-rest-client "^1.8.4"
@@ -3891,10 +3891,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@29.14.0:
-  version "29.14.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-29.14.0.tgz#93fda95643682a20b667822dff9180b137d10b5a"
-  integrity sha512-ZIXk7dAeo58Hdw7e3EaAqYUQDXIkUB5RMVpse67KjQ+r2Kj4ZPNcGEJ8dNGI+6S1SZXtcf1NbME5Wr4Djd+sUw==
+renovate@29.17.2:
+  version "29.17.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-29.17.2.tgz#0e447e84bc730f7ef33494a7dc34f902c3ff7348"
+  integrity sha512-42cpto3tePdXpFpwjHuEQbHEbg0QdFmUMy3orfz9zdRr5jE2gopGLivNB7uUvp6SOofhNw/VR9/r7r8SohfKcA==
   dependencies:
     "@aws-sdk/client-ec2" "3.35.0"
     "@aws-sdk/client-ecr" "3.38.0"
@@ -3907,7 +3907,7 @@ renovate@29.14.0:
     "@yarnpkg/core" "2.4.0"
     "@yarnpkg/parsers" "2.4.1"
     auth-header "1.0.0"
-    azure-devops-node-api "11.0.1"
+    azure-devops-node-api "11.1.0"
     bunyan "1.8.15"
     cacache "15.3.0"
     chalk "4.1.2"
