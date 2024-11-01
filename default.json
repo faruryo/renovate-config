@@ -1,6 +1,6 @@
 {
   "extends": [
-    "config:base"
+    "config:recommended"
   ],
   "minor": {
     "groupName": "all dependencies"
@@ -13,7 +13,8 @@
         "pin",
         "digest"
       ],
-      "automerge": true
+      "automerge": true,
+      "automergeStrategy": "squash"
     }
   ],
   "assignees": [
